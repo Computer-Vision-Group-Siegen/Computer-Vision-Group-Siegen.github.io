@@ -54,134 +54,44 @@
   </tbody></table>
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-<tr onmouseout="difsurvey_stop()" onmouseover="difsurvey_start()">
+
+
+  <tr onmouseout="advrec_stop()" onmouseover="advrec_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
-    <div class="two" id='difsurvey_image'><video  width=100% height=100% muted autoplay loop>
-    <source src="images/difsurvey_video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-    </video></div>
-      <img src='images/difsurvey_image.jpg' width="160">
+      <div class="two" id='advrec_image'>
+        <img src='images/adv_reconicip.png' width="160"></div>
+      <img src='images/clean_reconicip.png' width="160">
     </div>
     <script type="text/javascript">
-      function difsurvey_start() {
-        document.getElementById('difsurvey_image').style.opacity = "1";
+      function advrec_start() {
+        document.getElementById('advrec_image').style.opacity = "1";
       }
 
-      function difsurvey_stop() {
-        document.getElementById('difsurvey_image').style.opacity = "0";
+      function advrec_stop() {
+        document.getElementById('advrec_image').style.opacity = "0";
       }
-      difsurvey_stop()
-    </script>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="https://arxiv.org/abs/2310.07204">
-      <span class="papertitle">State of the Art on Diffusion Models for Visual Computing
-</span>
-    </a>
-    <br>
-	<a href="https://ryanpo.com/">Ryan Po</a>,
-	<a href="https://yifita.netlify.app/">Wang Yifan</a>,
-	<a href="https://people.mpi-inf.mpg.de/~golyanik/">Vladislav Golyanik</a>,
-	<a href="https://kfiraberman.github.io/">Kfir Aberman</a>,
-	<strong>Jonathan T. Barron</strong>,
-	<a href="https://www.cs.tau.ac.il/~amberman/">Amit H. Bermano</a>,
-	<a href="https://ericryanchan.github.io/">Eric Ryan Chan</a>,
-	<a href="https://www.weizmann.ac.il/math/dekel/home">Tali Dekel</a>,
-	<a href="https://holynski.org/">Aleksander Holynski</a>,
-	<a href="https://people.eecs.berkeley.edu/~kanazawa/">Angjoo Kanazawa</a>,
-	<a href="https://tml.stanford.edu/">C. Karen Liu</a>,
-	<a href="https://lingjie0206.github.io/">Lingjie Liu</a>,
-	<a href="https://bmild.github.io/">Ben Mildenhall</a>,
-    <a href="https://www.niessnerlab.org/">Matthias Nießner</a>,
-	<a href="https://ommer-lab.com/people/ommer/">Björn Ommer</a>,
-	<a href="https://people.mpi-inf.mpg.de/~theobalt/">Christian Theobalt</a>,
-	<a href="https://peterwonka.net/">Peter Wonka</a>,
-    <a href="https://stanford.edu/~gordonwz/">Gordon Wetzstein</a>
-    <br>
-	<em>arXiv<em>, 2023
-    <br>
-    <p></p>
-    <p>
-    A survey of recent progress in diffusion models for images, videos, and 3D.
-    </p>
-  </td>
-</tr>     
-
-
-  <tr onmouseout="guandao_stop()" onmouseover="guandao_start()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one">
-      <div class="two" id='guandao_image'>
-        <img src='images/guandao_after.png' width="160"></div>
-      <img src='images/guandao_before.png' width="160">
-    </div>
-    <script type="text/javascript">
-      function guandao_start() {
-        document.getElementById('guandao_image').style.opacity = "1";
-      }
-
-      function guandao_stop() {
-        document.getElementById('guandao_image').style.opacity = "0";
-      }
-      guandao_stop()
+      advrec_stop()
     </script>
   </td>
   <td style="padding:20px;width:75%;vertical-align:middle">
     <a href="https://arxiv.org/abs/2304.14473">
-      <span class="papertitle">Learning a Diffusion Prior for NeRFs</span>
+      <span class="papertitle">On Adversarial Robustness of Deep Image Deblurring</span>
     </a>
     <br>
-    <a href="https://www.guandaoyang.com/">Guandao Yang</a>, 
-    <a href="https://abhijitkundu.info/">Abhijit Kundu</a>, 
-    <a href="https://geometry.stanford.edu/member/guibas/index.html">Leonidas J. Guibas</a>, 
-    <strong>Jonathan T. Barron</strong>, 
-    <a href="https://cs.stanford.edu/~poole/">Ben Poole</a>
+    <a href="https://kvgandikota.github.io/">Kanchana Vaishnavi Gandikota</a>, 
+    <a href="https://paramanand-c.github.io/">paramanand Chandramouli</a>, 
+    <a href="https://sites.google.com/site/michaelmoellermath">Michael Moeller</a>
     <br>
-    <em>ICLR Workshop</em>, 2023
+    <em>ICIP</em>, 2022
     <p></p>
     <p>
-      Training a diffusion model on grid-based NeRFs lets you (conditionally) sample NeRFs.
+      Imperceptible distortion can significantly degrade the performance of SOTA deblurring networks, even producing drastically different content in the output.
     </p>
+ <a href="data/adversarial_icip2022.bib">bibtex</a> /
   </td>
   </tr>
 		
-		<tr onmouseout="eccv12_stop()" onmouseover="eccv12_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div id='eccv12_anim' class='hidden'>
-                  <a href="https://drive.google.com/file/d/1brxb58CfRPe7KEER4Q_fYS9B_J-hiS0t/view?usp=sharing"><img src="images/ECCV2012_small.gif"></a>
-                </div>
-                <div id='eccv12_still'><img src="images/ECCV2012_still.jpg"></div>
-                <script type="text/javascript">
-                  function eccv12_start() {
-                    document.getElementById('eccv12_anim').style.display = 'inline';
-                    document.getElementById('eccv12_still').style.display = 'none';
-                  }
-
-                  function eccv12_stop() {
-                    document.getElementById('eccv12_anim').style.display = 'none';
-                    document.getElementById('eccv12_still').style.display = 'inline';
-                  }
-                  eccv12_stop()
-                </script>
-              </td>
-              <td width="75%" valign="middle">
-                <a href="https://drive.google.com/file/d/1NczR4pJ-s0YBjCe0rCevMt8IM5JPuUrc/view?usp=sharing">
-                  <span class="papertitle">Color Constancy, Intrinsic Images, and Shape Estimation</span>
-                </a>
-                <br>
-                <strong>Jonathan T. Barron</strong>, <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>
-                <br>
-                <em>ECCV</em>, 2012
-                <br>
-                <a href="https://drive.google.com/file/d/1zuxhWZ3i6THvuRRBeE7dM_BJfDxO72Fq/view?usp=sharing">supplement</a> /
-                <a href="data/BarronMalikECCV2012.bib">bibtex</a> /
-                <a href="https://drive.google.com/file/d/12x8mhqpFsA6p0u6ZQW-ieRKF8hlQBKKe/view?usp=sharing">poster</a> /
-                <a href="http://www.youtube.com/watch?v=NnePYprvFvA">video</a>
-                <p>This paper is subsumed by <a href="#SIRFS">SIRFS</a>.</p>
-              </td>
-            </tr>
-
 
             
           </tbody></table>
