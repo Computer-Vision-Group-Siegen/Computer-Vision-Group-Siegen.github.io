@@ -9,9 +9,9 @@ authors:
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
   - {name: "Tom Goldstein", link: ""}
 publisher: "ICLR 2022"
-image: "data\images\GeipingICLR2022.png"
+image: "data/images/GeipingICLR2022.png"
 links:
-  BibTeX: "data\bibtex\GeipingICLR2022.bib"
+  BibTeX: "data/bibtex/GeipingICLR2022.bib"
   Code: "https://github.com/JonasGeiping/fullbatchtraining"
 ---
 Models trained with full-batch gradient descent and explicit regularization can match the generalization performance of models trained with stochastic minibatching.

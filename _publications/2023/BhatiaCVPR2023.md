@@ -11,9 +11,9 @@ authors:
   - {name: "Christian Theobalt", link: "https://people.mpi-inf.mpg.de/~theobalt/"}
   - {name: "Vladislav Golyanik", link: "https://4dqv.mpi-inf.mpg.de/"}
 publisher: "CVPR 2023"
-image: "data\images\BhatiaCVPR2023.png"
+image: "data/images/BhatiaCVPR2023.png"
 links:
-  BibTeX: "data\bibtex\BhatiaCVPR2023.bib"
+  BibTeX: "data/bibtex/BhatiaCVPR2023.bib"
   arXiv: "https://arxiv.org/abs/2303.16202"
   Code: "https://github.com/HarshilBhatia/CCuantuMM"
 ---

@@ -8,9 +8,9 @@ authors:
   - {name: "Janis Keuper", link: "https://imla.hs-offenburg.de/janis-keuper/"}
   - {name: "Margret Keuper", link: "https://www.uni-mannheim.de/dws/people/professors/prof-dr-ing-margret-keuper/"}
 publisher: "TMLR 2023"
-image: "data\images\LukasikTMLR2023.png"
+image: "data/images/LukasikTMLR2023.png"
 links:
-  BibTeX: "data\bibtex\LukasikTMLR2023.bib"
+  BibTeX: "data/bibtex/LukasikTMLR2023.bib"
   OpenReview: "https://openreview.net/forum?id=2wecNCpZ7Y"
 ---
 We study the frequencies in learned convolution filters and achieve improved native robustness with frequency regularization in learned convolution weights.

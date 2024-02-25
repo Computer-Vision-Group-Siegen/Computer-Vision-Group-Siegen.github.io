@@ -10,9 +10,9 @@ authors:
   - {name: "Christian Theobalt", link: "https://people.mpi-inf.mpg.de/~theobalt/"}
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
 publisher: "ICCV 2021"
-image: "data\images\BenknerICCV2021.png"
+image: "data/images/BenknerICCV2021.png"
 links:
-  BibTeX: "data\bibtex\BenknerICCV2021.bib"
+  BibTeX: "data/bibtex/BenknerICCV2021.bib"
   arXiv: "https://arxiv.org/abs/2105.02878"
   Code: "https://github.com/MSeelbach/Q-Match"
 ---

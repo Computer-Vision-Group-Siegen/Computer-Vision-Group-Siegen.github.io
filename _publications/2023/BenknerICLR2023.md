@@ -10,9 +10,9 @@ authors:
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
   - {name: "Vladislav Golyanik", link: "https://4dqv.mpi-inf.mpg.de/"}
 publisher: "ICLR 2023"
-image: "data\images\BenknerICLR2023.png"
+image: "data/images/BenknerICLR2023.png"
 links:
-  BibTeX: "data\bibtex\BenknerICLR2023.bib"
+  BibTeX: "data/bibtex/BenknerICLR2023.bib"
   arXiv: "https://arxiv.org/abs/2210.08114"
   Code: "https://github.com/MSeelbach/QuAnt"
 ---

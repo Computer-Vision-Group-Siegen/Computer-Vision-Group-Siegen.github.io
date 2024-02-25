@@ -9,9 +9,9 @@ authors:
   - {name: "Andreas Kolb", link: "https://www.cg.informatik.uni-siegen.de/en/kolb-andreas"}
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
 publisher: "TPAMI 2022"
-image: "data\images\ChandramouliTPAMI2022.png"
+image: "data/images/ChandramouliTPAMI2022.png"
 links:
-  BibTeX: "data\bibtex\ChandramouliTPAMI2022.bib"
+  BibTeX: "data/bibtex/ChandramouliTPAMI2022.bib"
   arXiv: "https://arxiv.org/abs/2005.06508"
   Code: "https://github.com/KVGandikota/Generative-Light-Field-Models"
 ---

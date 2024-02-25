@@ -8,9 +8,9 @@ authors:
   - {name: "Christian Theobalt", link: "https://people.mpi-inf.mpg.de/~theobalt/"}
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
 publisher: "3DV 2020"
-image: "data\images\Benkner3DV2020.png"
+image: "data/images/Benkner3DV2020.png"
 links:
-  BibTeX: "data\bibtex\Benkner3DV2020.bib"
+  BibTeX: "data/bibtex/Benkner3DV2020.bib"
   arXiv: "https://arxiv.org/abs/2107.04032"
   Code: "https://github.com/MSeelbach/QCinCV"
 ---

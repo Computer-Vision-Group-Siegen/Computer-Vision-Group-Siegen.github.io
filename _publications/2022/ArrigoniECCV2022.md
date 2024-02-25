@@ -9,9 +9,9 @@ authors:
   - {name: "Elisa Ricci", link: "https://webapps.unitn.it/du/en/Persona/PER0126701/Didattica"}
   - {name: "Vladislav Golyanik", link: "https://4dqv.mpi-inf.mpg.de/"}
 publisher: "ECCV 2022"
-image: "data\images\ArrigoniECCV2022.png"
+image: "data/images/ArrigoniECCV2022.png"
 links:
-  BibTeX: "data\bibtex\ArrigoniECCV2022.bib"
+  BibTeX: "data/bibtex/ArrigoniECCV2022.bib"
   arXiv: "https://arxiv.org/abs/2203.13185"
   Code: "https://github.com/federica-arrigoni/QuMoSeg"
 ---

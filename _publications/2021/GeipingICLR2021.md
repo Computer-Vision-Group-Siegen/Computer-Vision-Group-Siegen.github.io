@@ -11,9 +11,9 @@ authors:
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
   - {name: "Tom Goldstein", link: ""}
 publisher: "ICLR 2021"
-image: "data\images\GeipingICLR2021.png"
+image: "data/images/GeipingICLR2021.png"
 links:
-  BibTeX: "data\bibtex\GeipingICLR2021.bib"
+  BibTeX: "data/bibtex/GeipingICLR2021.bib"
   Code: "https://github.com/JonasGeiping/poisoning-gradient-matching"
 ---
 Data poisoning attacks that successfully poison neural networks trained from scratch, even on large-scale datasets like ImageNet.

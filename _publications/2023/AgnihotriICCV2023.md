@@ -9,9 +9,9 @@ authors:
   - {name: "Paramanand Chandramouli", link: "https://paramanand-c.github.io/"}
   - {name: "Margret Keuper", link: "https://www.uni-mannheim.de/dws/people/professors/prof-dr-ing-margret-keuper/"}
 publisher: "ICCV Workshops 2023"
-image: "data\images\AgnihotriICCV2023.png"
+image: "data/images/AgnihotriICCV2023.png"
 links:
-  BibTeX: "data\bibtex\AgnihotriICCV2023.bib"
+  BibTeX: "data/bibtex/AgnihotriICCV2023.bib"
   arXiv: "https://arxiv.org/abs/2307.13856"
 ---
 We show Transformer based restoration networks are not robust, and uncover effects of different attention mechanisms and nonlinearities on adversarially robust generalization.

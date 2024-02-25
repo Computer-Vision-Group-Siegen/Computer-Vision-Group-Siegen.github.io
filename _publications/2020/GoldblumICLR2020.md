@@ -9,9 +9,9 @@ authors:
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
   - {name: "Tom Goldstein", link: ""}
 publisher: "ICLR 2020"
-image: "data\images\GoldblumICLR2020.png"
+image: "data/images/GoldblumICLR2020.png"
 links:
-  BibTeX: "data\bibtex\GoldblumICLR2020.bib"
+  BibTeX: "data/bibtex/GoldblumICLR2020.bib"
   Code: "https://github.com/goldblum/TruthOrBackpropaganda"
 ---
 We call into question commonly held beliefs regarding the loss landscape, optimization, network width, and rank.

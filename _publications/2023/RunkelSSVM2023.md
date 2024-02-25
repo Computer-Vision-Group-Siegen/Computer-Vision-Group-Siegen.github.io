@@ -8,8 +8,8 @@ authors:
   - {name: "Carola-Bibiane Schönlieb", link: "https://www.damtp.cam.ac.uk/research/cia/person/cbs31"}
   - {name: "Christian Etmann", link: "https://www.ccimi.maths.cam.ac.uk/members/profile/cetmann/"}
 publisher: "SSVM 2023"
-image: "data\images\RunkelSSVM2023.png"
+image: "data/images/RunkelSSVM2023.png"
 links:
-  BibTeX: "data\bibtex\RunkelSSVM2023.bib"
+  BibTeX: "data/bibtex/RunkelSSVM2023.bib"
 ---
 An unpaired learning approach for learning posterior distributions of underdetermined inverse problems using two normalizing flows.

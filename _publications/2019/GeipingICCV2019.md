@@ -6,9 +6,9 @@ authors:
   - {name: "Jonas Geiping", link: "https://jonasgeiping.github.io/"}
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
 publisher: "ICCV 2019"
-image: "data\images\GeipingICCV2019.png"
+image: "data/images/GeipingICCV2019.png"
 links:
-  BibTeX: "data\bibtex\GeipingICCV2019.bib"
+  BibTeX: "data/bibtex/GeipingICCV2019.bib"
   Code: "https://github.com/JonasGeiping/ParametricMajorization"
 ---
 A new strategy to optimize the bi-level problems arising in training parameterized energy minimization models.
