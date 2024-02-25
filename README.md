@@ -11,12 +11,12 @@ year: <YEAR>
 title: "<TITLE>"
 source: "<LINK_TO_PUBLICATION>"
 authors:
-  - {name: "<NAME>", link: <LINK_TO_PROFILE_OR_NULL>}
+  - {name: "<NAME>", link: "<LINK_TO_PROFILE_OR_NULL>"}
   - ...
-publisher: <PUBLISHER>
-image: <PATH_TO_IMAGE>
+publisher: "<PUBLISHER>"
+image: "<PATH_TO_IMAGE>"
 links:
-  <NAME>: <URL>
+  <NAME>: "<URL>"
   ...
 ---
 <ABSTRACT>
