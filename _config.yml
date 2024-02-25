@@ -1,0 +1,9 @@
+title: Computer Vision Group
+author: Computer Vision Group
+description: The Computer Vision Group headed by Prof. Michael Moeller conducts research in the field of mathematical image processing, computer vision, and machine learning. 
+baseurl: ""
+url: ""
+github_username: Computer-Vision-Group-Siegen
+
+collections:
+  - publications

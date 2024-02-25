@@ -1,0 +1,161 @@
+@import url("lato.css");
+
+* {
+    box-sizing: border-box;
+    font-family: "Lato", Verdana, Helvetica, sans-serif;
+}
+
+body {
+    max-width: 800px;
+    margin: 40px auto;
+    font-size: 10.5pt;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 24pt;
+}
+
+h2, h3 {
+    font-size: 16pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+#logo {
+    flex: 1;
+    height: 150px;
+    aspect-ratio: 1/1;
+}
+
+.centered {
+    text-align: center;
+}
+
+section {
+    margin-top: 50px;
+}
+
+.yearList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.yearList > li {
+    margin-top: 30px;
+}
+
+.pubList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pubEntry {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    column-gap: 20px;
+}
+
+.pubEntryImgContainer {
+    position: relative;
+    flex: 150px 0 0;
+    align-self: center;
+    overflow: hidden;
+}
+
+.pubEntryImgContainer > img {
+    width: 150px;
+    object-fit: contain;
+}
+
+@keyframes crossfade {
+    from {
+        opacity: 1.0;
+    }
+    to {
+        opacity: 0.0;
+    }
+}
+
+.pubEntryImgContainer:hover > .pubEntryImg1 {
+    animation-name: crossfade;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.pubEntryImg2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.0;
+}
+
+.pubEntryImgContainer:hover > .pubEntryImg2 {
+    animation-name: crossfade;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+}
+
+.pubEntryTitle {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.pubEntryContent {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.authorList {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 5px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.authorList > li::after {
+    content: ",\00a0\00a0";
+}
+
+.authorList > li:last-child::after {
+    content: "";
+}
+
+.publisher {
+    font-style: italic;
+}
+
+.summary > p {
+    margin: 10px 0;
+}
+
+.linkList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.linkList > li::after {
+    content: "\00a0/\00a0";
+}
+
+.linkList > li:last-child::after {
+    content: "";
+}
