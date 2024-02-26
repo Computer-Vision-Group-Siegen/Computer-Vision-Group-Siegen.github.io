@@ -8,7 +8,6 @@ authors:
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
 publisher: "ICIP 2022"
 image: "data/images/GandikotaICIP2022.png"
-image2: "data/images/GandikotaICIP2022-2.png"
 links:
   BibTeX: "data/bibtex/GandikotaICIP2022.bib"
 ---
