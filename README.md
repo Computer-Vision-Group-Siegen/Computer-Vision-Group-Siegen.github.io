@@ -24,7 +24,7 @@ links:
 
 #### Tips:
  - All fields are required, if not mentioned otherwise
- - The `author`s `link` field can be set to `null` or left empty
- - The `image` field can be left out, in that case jekyll will automatically search for a (**PNG!**) file at *data/images/&lt;LAST_NAME_FIRST_AUTHOR&gt;&lt;PUBLISHER&gt;&lt;YEAR&gt;.png*
+ - The `author`s `link` field can be set to `null` or left empty (note that empty means completely empty, **not** an empty string!)
+ - The `image` field can be left out, in that case jekyll will automatically search for a **.png** file at *data/images/&lt;LAST_NAME_FIRST_AUTHOR&gt;&lt;PUBLISHER&gt;&lt;YEAR&gt;.png*
  - If a field called `image2` exists, jekyll will add both images on top of each other, with a crossfading-effect when hovering over the image.
- - If no entry called (**case sensitive!**) *BibTeX* exists in `links` jekyll will automatically search for a (**BIB!**) file at *data/bibtex/&lt;LAST_NAME_FIRST_AUTHOR&gt;&lt;PUBLISHER&gt;&lt;YEAR&gt;.bib*
+ - If no entry called *BibTeX* (case insensitive) exists in `links`, jekyll will automatically search for a **.bib** file at *data/bibtex/&lt;LAST_NAME_FIRST_AUTHOR&gt;&lt;PUBLISHER&gt;&lt;YEAR&gt;.bib*

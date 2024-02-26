@@ -80,7 +80,8 @@
                 {% endfor %}
                 {% assign names = names | concat: tmp | sort_natural %}
                 {% for name in names %}
-                {% if name == "BibTeX" %}
+                {% assign tmp3 = name | downcase %}
+                {% if tmp3 == "bibtex" %}
                 {% assign bibtexIdx = forloop.index0 %}
                 {% endif %}
                 {% endfor %}
