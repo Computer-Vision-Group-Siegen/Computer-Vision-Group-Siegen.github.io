@@ -11,7 +11,7 @@ authors:
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
   - {name: "Martin Burger", link: "https://helmholtz-imaging.de/person/prof-dr-martin-burger/"}
 publisher: "CAMC 2024"
-image: "data/images/KabriCAMC2024.png"
+image: "data/images/KabriCAMC2024.jpg"
 links:
   BibTeX: "data/bibtex/KabriCAMC2024.bib"
   arXiv: "https://arxiv.org/abs/2212.07786"
