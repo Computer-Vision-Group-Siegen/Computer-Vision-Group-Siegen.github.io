@@ -3,7 +3,6 @@ year: 2023
 title: "Sigma: Scale-invariant global sparse shape matching"
 source: "[https://openaccess.thecvf.com/content/ICCV2023/papers/Gao_SIGMA_Scale-Invariant_Global_Sparse_Shape_Matching_ICCV_2023_paper.pdf]"
 authors:
- Michael Moeller, Daniel Cremers, Florian Bernard
   - {name: "Maolin Gao", link: "https://cvg.cit.tum.de/members/gaom"}
   - {name: "Paul Roetzer", link: "https://lovc.cs.uni-bonn.de/index.php/team/paul-roetzer/"}
   - {name: "Marvin Eisenberger", link: "https://cvg.cit.tum.de/members/eisenber"}
