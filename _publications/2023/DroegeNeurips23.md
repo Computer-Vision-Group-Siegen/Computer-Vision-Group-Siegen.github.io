@@ -7,9 +7,9 @@ authors:
   - {name: "Zorah Lähner", link: "https://zorah.github.io/"}
   - {name: "Yuval Bahat", link: "https://sites.google.com/view/yuval-bahat/home"}
   - {name: "Onofre Martorell Nadal",}
-  - {name: "Felix Heide", link:"https://www.cs.princeton.edu/~fheide/"} 
+  - {name: "Felix Heide", link: "https://www.cs.princeton.edu/~fheide/"} 
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
-publisher: "Unireps Workshop, Neural Information Processing Systems (NeurIPS 2023)"
+publisher: "Neural Information Processing Systems (NeurIPS 2023)"
 image: "data/images/neuripshannah.png"
 links:
   BibTeX: "data/bibtex/DroegeNeurips2023.bib"
