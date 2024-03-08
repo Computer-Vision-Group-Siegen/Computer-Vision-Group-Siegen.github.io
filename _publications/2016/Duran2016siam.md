@@ -3,7 +3,6 @@ year: 2016
 title: "Collaborative Total Variation: A General Framework for Vectorial TV Models"
 source: "[https://epubs.siam.org/doi/abs/10.1137/15M102873X]"
 authors:
-Duran, Joan and Moeller, Michael and Sbert, Catalina and Cremers, Daniel
   - {name: "Joan Duran", link: ""}
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
   - {name: "Catalina Sbert", link: ""}
