@@ -8,7 +8,7 @@ authors:
   - {name: "Martin Burger", link: ""}
   
 publisher: "Journal of Mathematical Imaging and Vision 2016"
-image: "data/images/jmiv2016.png"
+image: "data/images/JMIV2016.png"
 links:
   BibTeX: "data/bibtex/Gilboa2016JMIV.bib"
 ---
