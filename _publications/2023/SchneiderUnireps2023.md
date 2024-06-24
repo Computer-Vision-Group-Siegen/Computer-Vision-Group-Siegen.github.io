@@ -10,7 +10,7 @@ authors:
   - {name: "Margret Keuper", link: "https://www.uni-mannheim.de/dws/people/professors/prof-dr-ing-margret-keuper/"}
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
 publisher: "UniReps: the First Workshop on Unifying Representations in Neural Models"
-image: "data/images/SchneiderUnireps2023.png"
+image: "data/images/SchneiderUnireps2023.gif"
 links:
   BibTeX: "data/bibtex/SchneiderUnireps2023.bib"
   OpenReview: "https://openreview.net/forum?id=LSSiDy7fG1"
