@@ -3,7 +3,7 @@ year: 2023
 title: "Improving Native CNN Robustness with Filter Frequency Regularization"
 source: "https://openreview.net/pdf?id=2wecNCpZ7Y"
 authors:
-  - {name: "Jovita Lukasik*", link: "https://jovitalukasik/"}
+  - {name: "Jovita Lukasik*", link: "https://jovitalukasik.github.io/"}
   - {name: "Paul Gavrikov*", link: "https://paulgavrikov.github.io/"}
   - {name: "Janis Keuper", link: "https://imla.hs-offenburg.de/janis-keuper/"}
   - {name: "Margret Keuper", link: "https://www.uni-mannheim.de/dws/people/professors/prof-dr-ing-margret-keuper/"}
