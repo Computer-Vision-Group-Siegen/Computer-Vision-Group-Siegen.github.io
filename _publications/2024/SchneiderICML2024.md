@@ -9,7 +9,7 @@ authors:
   - {name: "Andreas Kolb", link: "https://www.cg.informatik.uni-siegen.de/en/kolb-andreas"}
   - {name: "Margret Keuper", link: "https://www.uni-mannheim.de/dws/people/professors/prof-dr-ing-margret-keuper/"}
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
-publisher: "41th International Conference on Machine Learning"
+publisher: "ICML 2024"
 image: "data/images/SchneiderICML2024.png"
 links:
   BibTeX: "data/bibtex/SchneiderICML2024.bib"
