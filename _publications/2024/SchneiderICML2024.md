@@ -5,7 +5,7 @@ source: "https://openreview.net/pdf?id=IaV6AgrTUp"
 authors:
   - {name: "Jan Philipp Schneider", link: "https://github.com/jp-schneider"}
   - {name: "Mishal Fatima", link: null}
-  - {name: "Jovita Lukasik", link: "https://jovitalukasik.github.io/}
+  - {name: "Jovita Lukasik", link: "https://jovitalukasik.github.io/"}
   - {name: "Andreas Kolb", link: "https://www.cg.informatik.uni-siegen.de/en/kolb-andreas"}
   - {name: "Margret Keuper", link: "https://www.uni-mannheim.de/dws/people/professors/prof-dr-ing-margret-keuper/"}
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
@@ -16,5 +16,5 @@ links:
   OpenReview: "https://openreview.net/forum?id=IaV6AgrTUp"
   Code: "https://github.com/jp-schneider/awesome"
 ---
-Proposing a variaty of provable geometric constraints to improve Image Segmentation performance in data scarcity domains.
+Proposing a variety of provable geometric constraints to improve Image Segmentation performance in data scarcity domains.
 
