@@ -11,9 +11,9 @@ authors:
   - {name: "Roman Neruda", link: null}
   - {name: "Frank Hutter", link: "https://ml.informatik.uni-freiburg.de/profile/hutter/"}
 publisher: "ICML 2024"
-image: "data/images/GRAFICML2024.png"
+image: "data/images/KadlecovaICML2024.png"
 links:
-  BibTeX: "data/bibtex/GRAFICML2024.bib"
+  BibTeX: "data/bibtex/KadlecovaICML2024.bib"
   OpenReview: "https://openreview.net/forum?id=EhPpZV6KLk"
   Code: "https://github.com/gabikadlecova/GRAF/"
 ---
