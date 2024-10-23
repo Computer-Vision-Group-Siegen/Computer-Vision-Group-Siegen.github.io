@@ -62,94 +62,101 @@
       <h2 id="publicationsTitle">Publications</h2>
       <ul class="yearList">
         {% for year in unique_years %}
-        <li>
-          <h3 class="yearTitle">{{ year }}</h3>
-          {% assign unique_months = "" | split: "," %}
-          {% for publication in publications %}
-            {% if publication.year == year %}
-              {% assign pubmonth = publication.month | plus: 0 %}
-              {% unless unique_months contains pubmonth %}
-                {% assign unique_months = unique_months | push: pubmonth %}
-              {% endunless %}
-            {% endif %}
-          {% endfor %}
-          {% assign unique_months = unique_months | sort_natural | reverse %}
-          {% for month in unique_months %}
-            <ul class="monthList">
-              <li>
-                {% assign MONTH_NAMES = "???,Jan.,Feb.,Mar.,Apr.,May.,Jun.,Jul.,Aug.,Sep.,Oct.,Nov.,Dev." | split: "," %}
-                {% for item in MONTH_NAMES %}
-                  {% if forloop.index0 == month %}
-                    {% assign month_name = item %}
-                    {% break %} 
-                  {% endif %}
-                {% endfor %}
-                <h4 class="monthTitle">{{ month_name }}<h4>
-                <ul class="pubList">
-                  {% for publication in publications %}
-                    {% if publication.year == year %}
-                      {% assign pubmonth = publication.month | plus: 0 %}
-                      {% if pubmonth == month %}
-                        <li class="pubEntry">
-                          <div class="pubEntryImgContainer">
-                            {% unless publication.image %}
-                            <img class="pubEntryImg" src="data/images/{{ publication.authors[0].name | split: " " | last | remove: "*" }}{{ publication.publisher | split: " " | first | remove: "-" }}{{ year }}.png" />
-                            {% else %}
-                            <img class="pubEntryImg{% if publication.image2 %}1{% endif %}" src="{{ publication.image }}" />
-                            {% endunless %}
-                            {% if publication.image2 %}
-                              <img class="pubEntryImg2" src="{{ publication.image2 }}" />
-                            {% endif %}
-                          </div>
-                          <div class="pubEntryContent">
-                            <h5 class="pubEntryTitle"><a href="{{ publication.source }}" target="_blank">{{ publication.title | markdownify }}</a></h5>
-                            <ul class="authorList">
-                              {% for author in publication.authors %}
-                              <li>{% if author.link %}<a href="{{ author.link }}" target="_blank">{% endif %}{{ author.name }}{% if author.link %}</a>{% endif %}</li>
-                              {% endfor %}
-                            </ul>
-                            <span class="publisher">{{ publication.publisher }}</span>
-                            <div class="summary">
-                              {{ publication.content | markdownify }}
-                            </div>
-                            {% assign hasBibtex = 0 %}
-                            {% for link in publication.links %}
-                            {% if link[0] == "BibTeX" %}
-                            {% assign hasBibtex = 1 %}
-                            {% endif %}
-                            {% endfor %}
-                            {% unless hasBibtex == 1 %}
-                            {% assign bibtexIdx = 0 %}
-                            {% assign tmp = "BibTeX" | split: "," %}
-                            {% for link in publication.links %}
-                            {% assign tmp2 = link[0] | split: "," %}
-                            {% assign names = names | concat: tmp2 %}
-                            {% endfor %}
-                            {% assign names = names | concat: tmp | sort_natural %}
-                            {% for name in names %}
-                            {% assign tmp3 = name | downcase %}
-                            {% if tmp3 == "bibtex" %}
-                            {% assign bibtexIdx = forloop.index0 %}
-                            {% endif %}
-                            {% endfor %}
-                            {% endunless %}
-                            <ul class="linkList">
-                              {% for link in publication.links %}
-                              {% if forloop.index0 == bibtexIdx %}
-                              <li><a href="data/bibtex/{{ publication.authors[0].name | split: " " | last | remove: "*" }}{{ publication.publisher | split: " " | first | remove: "-" }}{{ year }}.bib">BibTeX</a></li>
-                              {% endif %}
-                              <li><a href="{{ link[1] }}" target="_blank">{{ link[0] }}</a></li>
-                              {% endfor %}
-                            </ul>
-                          </div>
-                        </li>
-                      {% endif %}
+        <li class="collapsibleBlock">
+          <input type="checkbox" id="year{{ year }}Container" class="collapsibleBlockCheckbox" type="checkbox"{% if forloop.index0==0 %} checked{% endif %}/>
+          <label for="year{{ year }}Container" class="collapsibleBlockLabel"><h3 class="yearTitle">{{ year }}</h3></label>
+          <div class="collapsibleBlockContent">
+            {% assign unique_months = "" | split: "," %}
+            {% for publication in publications %}
+              {% if publication.year == year %}
+                {% assign pubmonth = publication.month | plus: 0 %}
+                {% unless unique_months contains pubmonth %}
+                  {% assign unique_months = unique_months | push: pubmonth %}
+                {% endunless %}
+              {% endif %}
+            {% endfor %}
+            {% assign unique_months = unique_months | sort_natural | reverse %}
+            {% for month in unique_months %}
+              <ul class="monthList">
+                <li>
+                  {% assign MONTH_NAMES = "???,Jan.,Feb.,Mar.,Apr.,May.,Jun.,Jul.,Aug.,Sep.,Oct.,Nov.,Dev." | split: "," %}
+                  {% for item in MONTH_NAMES %}
+                    {% if forloop.index0 == month %}
+                      {% assign month_name = item %}
+                      {% break %} 
                     {% endif %}
                   {% endfor %}
-                </ul>
-              </li>
-            </ul>
-          {% endfor %}
+                  <h4 class="monthTitle">{{ month_name }}<h4>
+                  <ul class="pubList">
+                    {% for publication in publications %}
+                      {% if publication.year == year %}
+                        {% assign pubmonth = publication.month | plus: 0 %}
+                        {% if pubmonth == month %}
+                          <li class="pubEntry">
+                            <div class="pubEntryImgContainer">
+                              {% unless publication.image %}
+                              <img class="pubEntryImg" src="data/images/{{ publication.authors[0].name | split: " " | last | remove: "*" }}{{ publication.publisher | split: " " | first | remove: "-" }}{{ year }}.png" />
+                              {% else %}
+                              <img class="pubEntryImg{% if publication.image2 %}1{% endif %}" src="{{ publication.image }}" />
+                              {% endunless %}
+                              {% if publication.image2 %}
+                                <img class="pubEntryImg2" src="{{ publication.image2 }}" />
+                              {% endif %}
+                            </div>
+                            <div class="pubEntryContent">
+                              <h5 class="pubEntryTitle">
+                                <a href="{{ publication.source }}" target="_blank">
+                                  {{ publication.title | markdownify }}
+                                </a>
+                              </h5>
+                              <ul class="authorList">
+                                {% for author in publication.authors %}
+                                <li>{% if author.link %}<a href="{{ author.link }}" target="_blank">{% endif %}{{ author.name }}{% if author.link %}</a>{% endif %}</li>
+                                {% endfor %}
+                              </ul>
+                              <span class="publisher">{{ publication.publisher }}</span>
+                              <div class="summary">
+                                {{ publication.content | markdownify }}
+                              </div>
+                              {% assign hasBibtex = 0 %}
+                              {% for link in publication.links %}
+                              {% if link[0] == "BibTeX" %}
+                              {% assign hasBibtex = 1 %}
+                              {% endif %}
+                              {% endfor %}
+                              {% unless hasBibtex == 1 %}
+                              {% assign bibtexIdx = 0 %}
+                              {% assign tmp = "BibTeX" | split: "," %}
+                              {% for link in publication.links %}
+                              {% assign tmp2 = link[0] | split: "," %}
+                              {% assign names = names | concat: tmp2 %}
+                              {% endfor %}
+                              {% assign names = names | concat: tmp | sort_natural %}
+                              {% for name in names %}
+                              {% assign tmp3 = name | downcase %}
+                              {% if tmp3 == "bibtex" %}
+                              {% assign bibtexIdx = forloop.index0 %}
+                              {% endif %}
+                              {% endfor %}
+                              {% endunless %}
+                              <ul class="linkList">
+                                {% for link in publication.links %}
+                                {% if forloop.index0 == bibtexIdx %}
+                                <li><a href="data/bibtex/{{ publication.authors[0].name | split: " " | last | remove: "*" }}{{ publication.publisher | split: " " | first | remove: "-" }}{{ year }}.bib">BibTeX</a></li>
+                                {% endif %}
+                                <li><a href="{{ link[1] }}" target="_blank">{{ link[0] }}</a></li>
+                                {% endfor %}
+                              </ul>
+                            </div>
+                          </li>
+                        {% endif %}
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </li>
+              </ul>
+            {% endfor %}
+          </div>
         </li>
         {% endfor %}
       </ul>
