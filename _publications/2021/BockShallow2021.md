@@ -1,6 +1,6 @@
 ---
 year: 2021
-title: "Improving Deep Learning for HAR with Shallow LSTMs (🏆 Best Paper Award)"
+title: "Improving Deep Learning for HAR with Shallow LSTMs"
 source: "https://dl.acm.org/doi/abs/10.1145/3460421.3480419"
 authors:
   - {name: "Marius Bock", link: "https://mariusbock.github.io"}

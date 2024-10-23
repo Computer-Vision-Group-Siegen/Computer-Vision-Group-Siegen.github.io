@@ -107,6 +107,9 @@
                               <h5 class="pubEntryTitle">
                                 <a href="{{ publication.source }}" target="_blank">
                                   {{ publication.title | markdownify }}
+                                  {% if publication.award %}
+                                    (<span class="trophy">🏆</span> {{ publication.award }})
+                                  {% endif %}
                                 </a>
                               </h5>
                               <ul class="authorList">

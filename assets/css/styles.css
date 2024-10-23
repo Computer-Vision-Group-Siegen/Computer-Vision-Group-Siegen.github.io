@@ -189,6 +189,34 @@ section {
     display: inline;
 }
 
+.trophy {
+    white-space:nowrap;
+    overflow: clip;
+    position: relative;
+}
+
+.trophy:after {
+    background: #fff;
+    content: "";
+    height: 50px;
+    left: -25px;
+    top: -20px;
+    opacity: 0.75;
+    position: absolute;
+    transform: rotate(35deg);
+    width: 3px;
+    animation: 3s linear 0s infinite normal blingBling;
+}
+
+@keyframes blingBling {
+    from {
+        left: -25px;
+    }
+    to {
+        left: 1700%;
+    }
+}
+
 .pubEntryContent {
     display: flex;
     flex-flow: column nowrap;
