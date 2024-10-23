@@ -9,7 +9,7 @@ authors:
   - {name: "Qin Lv", link: "https://scholar.google.com/citations?user=dTkWR0MAAAAJ&hl=en"}
   - {name: "Kristof Van Laerhoven", link: "https://ubi29.informatik.uni-siegen.de/usi/team_kvl.html"}
 publisher: "Sensors"
-image: "data/images/hoelzemannHangtime2023.png"
+image: "data/images/HoelzemannHangtime2023.png"
 links:
   BibTeX: "data/bibtex/hoelzemannHangtime2023.bib"
   arXiv: "https://arxiv.org/abs/2311.15831"
