@@ -1,5 +1,6 @@
 ---
 year: 2024
+month: 8
 title: "Robustness and exploration of variational and machine learning approaches to inverse problems: An overview"
 source: "https://onlinelibrary.wiley.com/doi/10.1002/gamm.202470003"
 authors:

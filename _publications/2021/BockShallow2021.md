@@ -13,5 +13,6 @@ links:
   BibTeX: "data/bibtex/BockShallow2021.bib"
   arXiv: "https://arxiv.org/abs/2108.00702"
   Code: "https://github.com/mariusbock/dl-for-har"
+award: "Best Paper Award"
 ---
 Proposes Shallow DeepConvLSTM architecture, employing a 1-layered instead of a 2-layered LSTM, which significantly improves results.

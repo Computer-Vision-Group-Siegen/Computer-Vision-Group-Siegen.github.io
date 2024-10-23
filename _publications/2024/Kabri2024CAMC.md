@@ -1,5 +1,6 @@
 ---
 year: 2024
+month: 2
 title: "Convergent Data-Driven Regularizations for CT Reconstruction"
 source: "https://link.springer.com/article/10.1007/s42967-023-00333-2"
 authors:

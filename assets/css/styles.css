@@ -3,15 +3,16 @@
 * {
     box-sizing: border-box;
     font-family: "Lato", Verdana, Helvetica, sans-serif;
+    font-size: 10.5pt;
 }
 
 body {
     max-width: 800px;
     margin: 40px auto;
-    font-size: 10.5pt;
+    padding: 0px 20px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     margin: 0;
     font-weight: normal;
 }
@@ -20,8 +21,16 @@ h1 {
     font-size: 24pt;
 }
 
-h2, h3 {
+h2 {
+    font-size: 18pt;
+}
+
+h3, h4 {
     font-size: 16pt;
+}
+
+h5 {
+    font-size: 12pt;
 }
 
 a {
@@ -34,10 +43,53 @@ header {
     align-items: center;
 }
 
+input[type="checkbox"], .collapsibleBlockCheckbox {
+    display: none;
+}
+
+.collapsibleBlockLabel {
+    display: block;
+}
+
+.collapsibleBlockLabel::before {
+    content: ' ';
+    display: inline-block;
+  
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid currentColor;
+  
+    vertical-align: middle;
+    margin-right: .7rem;
+    transform: translateY(-3.5px);
+  
+    transition: transform .2s ease-out;
+}
+
+.collapsibleBlockContent {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+}
+
+.collapsibleBlockCheckbox:checked + .collapsibleBlockLabel + .collapsibleBlockContent {
+    max-height: 100vh;
+}
+
+.collapsibleBlockCheckbox:checked + .collapsibleBlockLabel::before {
+    transform: rotate(90deg) translateX(-3px);
+}
+  
+.collapsibleBlockCheckbox:checked + .collapsibleBlockLabel {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}  
+
 #logo {
     flex: 1;
     height: 150px;
     aspect-ratio: 1/1;
+    margin-left: 20px;
 }
 
 .centered {
@@ -55,6 +107,19 @@ section {
 
 .yearList > li {
     margin-top: 30px;
+}
+
+.monthList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.monthList > li {
+    margin-top: 30px;
+}
+
+.monthTitle {
+    display: none;
 }
 
 .pubList {
@@ -112,7 +177,6 @@ section {
 }
 
 .pubEntryTitle {
-    margin-bottom: 5px;
     font-weight: bold;
 }
 
