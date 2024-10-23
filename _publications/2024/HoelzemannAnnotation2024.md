@@ -7,7 +7,7 @@ authors:
   - {name: "Marius Bock", link: "https://mariusbock.github.io"}
   - {name: "Kristof Van Laerhoven", link: "https://ubi29.informatik.uni-siegen.de/usi/team_kvl.html"}
 publisher: "PerCom Workshops"
-image: "data/images/HoelzemannAnnotation2024.jpg"
+image: "data/images/HoelzemannAnnotation2024.png"
 links:
   BibTeX: "data/bibtex/HoelzemannAnnotation2024.bib"
   Code: "https://github.com/mariusbock/video_assisted_annotation"

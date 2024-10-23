@@ -8,7 +8,7 @@ authors:
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
   - {name: "Kristof Van Laerhoven", link: "https://ubi29.informatik.uni-siegen.de/usi/team_kvl.html"}
 publisher: "Frontiers in Computer Science"
-image: "data/images/BockRecurrent2022.jpg"
+image: "data/images/BockRecurrent2022.png"
 links:
   BibTeX: "data/bibtex/BockRecurrent2022.bib"
   Code: "https://github.com/mariusbock/recurrent_state_of_the_art"

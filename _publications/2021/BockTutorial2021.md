@@ -8,10 +8,10 @@ authors:
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
   - {name: "Kristof Van Laerhoven", link: "https://ubi29.informatik.uni-siegen.de/usi/team_kvl.html"}
 publisher: "UbiComp/ ISWC"
-image: "data/images/BockTutorial2021.jpg"
+image: "data/images/BockTutorial2021.png"
 links:
   BibTeX: "data/bibtex/BockTutorial2021.bib"
-  ArXiv: "https://arxiv.org/abs/2110.06663"
+  arXiv: "https://arxiv.org/abs/2110.06663"
   Code: "https://github.com/mariusbock/dl-for-har"
 ---
 Full-day Tutorial held at the 2021 ACM International Symposium on Wearable Computers and International Joint Conference on Pervasive and Ubiquitous Computing.

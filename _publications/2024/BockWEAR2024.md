@@ -8,10 +8,10 @@ authors:
   - {name: "Kristof Van Laerhoven", link: "https://ubi29.informatik.uni-siegen.de/usi/team_kvl.html"}
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
 publisher: "IMWUT"
-image: "data/images/BockWEAR2024.jpg"
+image: "data/images/BockWEAR2024.png"
 links:
   BibTeX: "data/bibtex/BockWEAR2024.bib"
-  ArXiv: "https://arxiv.org/abs/2304.05088"
+  arXiv: "https://arxiv.org/abs/2304.05088"
   Code: "https://github.com/mariusbock/wear"
 ---
 Outdoor sports benchmark dataset for both vision- and inertial-based human activity recognition.

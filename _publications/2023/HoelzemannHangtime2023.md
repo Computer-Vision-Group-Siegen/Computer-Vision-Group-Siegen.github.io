@@ -9,10 +9,10 @@ authors:
   - {name: "Qin Lv", link: "https://scholar.google.com/citations?user=dTkWR0MAAAAJ&hl=en"}
   - {name: "Kristof Van Laerhoven", link: "https://ubi29.informatik.uni-siegen.de/usi/team_kvl.html"}
 publisher: "Sensors"
-image: "data/images/hoelzemannHangtime2023.jpg"
+image: "data/images/hoelzemannHangtime2023.png"
 links:
   BibTeX: "data/bibtex/hoelzemannHangtime2023.bib"
-  ArXiv: "https://arxiv.org/abs/2311.15831"
+  arXiv: "https://arxiv.org/abs/2311.15831"
   Code: "https://github.com/ahoelzemann/hangtime_har?tab=readme-ov-file"
 ---
 Basketball activity recognition dataset for benchmarking inertial-based human activity recongition approaches.

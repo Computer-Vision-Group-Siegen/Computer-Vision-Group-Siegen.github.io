@@ -8,7 +8,7 @@ authors:
   - {name: "Daniel Roggen", link: "http://www.danielroggen.net"}
   - {name: "Kristof Van Laerhoven", link: "https://ubi29.informatik.uni-siegen.de/usi/team_kvl.html"}
 publisher: "PerCom Workshops"
-image: "data/images/PellattReplicability2022.jpg"
+image: "data/images/PellattReplicability2022.png"
 links:
   BibTeX: "data/bibtex/PellattReplicability2022.bib"
   Code: "https://github.com/STRCSussex-UbiCompSiegen/dl_har_public"
