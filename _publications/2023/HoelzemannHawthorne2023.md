@@ -10,7 +10,7 @@ authors:
   - {name: "Kenza Nassiri"}
   - {name: "Kristof Van Laerhoven", link: "https://ubi29.informatik.uni-siegen.de/usi/team_kvl.html"}
 publisher: "UbiComp/ ISWC Workshops"
-image: "data/images/hoelzemannHawthorne2023.png"
+image: "data/images/HoelzemannHawthorne2023.png"
 links:
   BibTeX: "data/bibtex/hoelzemannHawthorne2023.bib"
   Code: "https://github.com/mariusbock/hawthorne_har"
