@@ -55,6 +55,9 @@ input[type="checkbox"], .collapsibleBlockCheckbox {
     display: block;
 }
 
+/*********************************************/
+/* Uncomment to enable collapsible year lists*/
+/*********************************************/
 /*.collapsibleBlockLabel::before {
     content: ' ';
     display: inline-block;
@@ -265,10 +268,13 @@ section {
     content: "";
 }
 
+/************************************************/
+/* Uncomment to enable automatic light/dark mode*/
+/************************************************/
 /*@media (prefers-color-scheme: light) {
     body {
         background: #FFFFFF;
-        color: #292929;
+        color: #000000;
     }
 }
 
