@@ -55,10 +55,7 @@ input[type="checkbox"], .collapsibleBlockCheckbox {
     display: block;
 }
 
-/*********************************************/
-/* Uncomment to enable collapsible year lists*/
-/*********************************************/
-/*.collapsibleBlockLabel::before {
+.collapsibleBlockLabel::before {
     content: ' ';
     display: inline-block;
   
@@ -85,7 +82,7 @@ input[type="checkbox"], .collapsibleBlockCheckbox {
 
 .collapsibleBlockCheckbox:checked + .collapsibleBlockLabel::before {
     transform: rotate(90deg) translateX(-3px);
-}*/
+}
   
 .collapsibleBlockCheckbox:checked + .collapsibleBlockLabel {
     border-bottom-right-radius: 0;
@@ -151,6 +148,7 @@ section {
     flex: 150px 0 0;
     align-self: center;
     overflow: hidden;
+    background-color: #FFFFFF;
 }
 
 .pubEntryImgContainer > img {
@@ -268,10 +266,7 @@ section {
     content: "";
 }
 
-/************************************************/
-/* Uncomment to enable automatic light/dark mode*/
-/************************************************/
-/*@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
     body {
         background: #FFFFFF;
         color: #000000;
@@ -292,4 +287,4 @@ section {
     a:visited {
         color: #BB86FC;
     }
-}*/
+}

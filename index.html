@@ -61,7 +61,7 @@
       <ul class="yearList">
         {% for year in unique_years %}
         <li class="collapsibleBlock">
-          <input type="checkbox" id="year{{ year }}Checkbox" class="collapsibleBlockCheckbox" type="checkbox"{% if forloop.index0==0 %} checked{% endif %}/>
+          <input type="checkbox" id="year{{ year }}Checkbox" class="collapsibleBlockCheckbox" type="checkbox" checked/>
           <label for="year{{ year }}Checkbox" class="collapsibleBlockLabel"><h3 class="yearTitle">{{ year }}</h3></label>
           <div class="collapsibleBlockContent">
             {% assign unique_months = "" | split: "," %}
