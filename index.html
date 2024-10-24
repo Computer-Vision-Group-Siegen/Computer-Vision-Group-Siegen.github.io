@@ -9,21 +9,19 @@
     <title>Computer Vision Group</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async></script>
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        TeX: {
-          equationNumbers: {
-            autoNumber: "AMS"
-          }
+    <script>
+      MathJax = {
+        options: {
+          enableMenu: false,
         },
-        tex2jax: {
-          inlineMath: [ ['$','$'], ['\\(', '\\)'] ],
-          displayMath: [ ['$$','$$'] ],
+        tex: {
+          inlineMath: [['$','$'],['\\(','\\)']],
+          displayMath: [['$$','$$']],
           processEscapes: true,
         }
-      });
+      };
     </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <header>
@@ -63,8 +61,8 @@
       <ul class="yearList">
         {% for year in unique_years %}
         <li class="collapsibleBlock">
-          <input type="checkbox" id="year{{ year }}Container" class="collapsibleBlockCheckbox" type="checkbox"{% if forloop.index0==0 %} checked{% endif %}/>
-          <label for="year{{ year }}Container" class="collapsibleBlockLabel"><h3 class="yearTitle">{{ year }}</h3></label>
+          <input type="checkbox" id="year{{ year }}Checkbox" class="collapsibleBlockCheckbox" type="checkbox"{% if forloop.index0==0 %} checked{% endif %}/>
+          <label for="year{{ year }}Checkbox" class="collapsibleBlockLabel"><h3 class="yearTitle">{{ year }}</h3></label>
           <div class="collapsibleBlockContent">
             {% assign unique_months = "" | split: "," %}
             {% for publication in publications %}
