@@ -73,7 +73,7 @@ input[type="checkbox"], .collapsibleBlockCheckbox {
 }
 
 .collapsibleBlockCheckbox:checked + .collapsibleBlockLabel + .collapsibleBlockContent {
-    max-height: 100vh;
+    max-height: inherit;
 }
 
 .collapsibleBlockCheckbox:checked + .collapsibleBlockLabel::before {
