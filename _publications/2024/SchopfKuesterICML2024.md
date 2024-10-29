@@ -9,6 +9,6 @@ authors:
   - {name: "Michael Moeller", link: "https://sites.google.com/site/michaelmoellermath"}
 publisher: "ICML 2024 GRaM Workshop"
 image: "data/images/SchopfKuesterICML2024.png"
- BibTeX: "data/bibtex/SchopfKuesterICML2024.bib"
+BibTeX: "data/bibtex/SchopfKuesterICML2024.bib"
 ---
 This work addresses the problem of shape completion while using test-time-training during inference.
