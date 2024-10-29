@@ -15,7 +15,6 @@ publisher: "CAMC 2024"
 image: "data/images/KabriCAMC2024.jpg"
 links:
   BibTeX: "data/bibtex/KabriCAMC2024.bib"
-  arXiv: "https://arxiv.org/abs/2212.07786"
   Code: "https://github.com/AlexanderAuras/convergent-data-driven-regularizations-for-ct-reconstruction"
 ---
 Proving the convergence with regards to the noise level of two regularization methods for 2D parallel beam CT-reconstruction, and investigating the effect of discretization errors at different resolutions.

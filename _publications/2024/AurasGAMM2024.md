@@ -12,7 +12,6 @@ publisher: "GAMM Mitteilungen"
 image: "data/images/AurasGAMM2024.jpg"
 links:
   BibTeX: "data/bibtex/AurasGAMM2024.bib"
-  ArXiv: "https://arxiv.org/abs/2402.12072"
   Code: "https://github.com/AlexanderAuras/GAMM-Overview-23"
 ---
 Providing an overview of current approaches for solving inverse problems in imaging using variational methods and machine learning.
