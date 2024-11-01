@@ -1,5 +1,6 @@
 ---
 year: 2021
+month: 9
 title: "Tutorial on Deep Learning for Human Activity Recognition"
 source: "https://mariusbock.github.io/dl-for-har/"
 authors:

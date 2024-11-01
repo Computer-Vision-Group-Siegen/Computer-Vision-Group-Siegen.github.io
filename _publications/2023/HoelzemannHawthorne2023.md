@@ -1,5 +1,6 @@
 ---
 year: 2023
+month: 10
 title: "A Data-Driven Study on the Hawthorne Effect in Sensor-Based Human Activity Recognition"
 source: "https://dl.acm.org/doi/abs/10.1145/3594739.3610743"
 authors:

@@ -1,5 +1,6 @@
 ---
 year: 2023
+month: 6
 title: "Hang-Time HAR: A Benchmark Dataset for Basketball Activity Recognition Using Wrist-Worn Inertial Sensors"
 source: "https://www.mdpi.com/1424-8220/23/13/5879"
 authors:

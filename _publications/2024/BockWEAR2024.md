@@ -1,5 +1,6 @@
 ---
 year: 2024
+month: 12
 title: "WEAR: An Outdoor Sports Dataset for Wearable and Egocentric Activity Recognition"
 source: "https://dl.acm.org/doi/10.1145/3699776"
 authors:

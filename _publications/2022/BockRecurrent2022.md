@@ -1,5 +1,6 @@
 ---
 year: 2022
+month: 9
 title: "Investigating (re)current state-of-the-art in human activity recognition datasets"
 source: "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2022.924954"
 authors:

@@ -1,5 +1,6 @@
 ---
 year: 2024
+month: 3
 title: "Evaluation of Video-Assisted Annotation of Human IMU Data Across Expertise, Datasets, and Tools"
 source: "https://ieeexplore.ieee.org/document/10503292"
 authors:

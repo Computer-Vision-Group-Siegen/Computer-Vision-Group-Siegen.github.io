@@ -1,5 +1,6 @@
 ---
 year: 2022
+month: 3
 title: "A Public Repository to Improve Replicability and Collaboration in Deep Learning for HAR"
 source: "https://ieeexplore.ieee.org/abstract/document/9767436"
 authors:

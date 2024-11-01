@@ -1,5 +1,6 @@
 ---
 year: 2024
+month: 10
 title: "Weak-Annotation of HAR Datasets using Vision Foundation Models"
 source: "https://dl.acm.org/doi/10.1145/3675095.3676613"
 authors:

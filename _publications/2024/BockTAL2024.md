@@ -1,5 +1,6 @@
 ---
 year: 2024
+month: 12
 title: "Temporal Action Localization for Inertial-based Human Activity Recognition"
 source: "https://dl.acm.org/doi/10.1145/3699770"
 authors:
