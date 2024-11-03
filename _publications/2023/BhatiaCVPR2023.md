@@ -1,5 +1,6 @@
 ---
 year: 2023
+month: 6
 title: "CCuantuMM: Cycle-Consistent Quantum-Hybrid Matching of Multiple Shapes"
 source: "https://arxiv.org/abs/2303.16202"
 authors:

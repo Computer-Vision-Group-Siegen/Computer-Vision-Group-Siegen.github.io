@@ -1,5 +1,6 @@
 ---
 year: 2023
+month: 5
 title: "QuAnt: Quantum Annealing with Learnt Couplings"
 source: "https://arxiv.org/abs/2210.08114"
 authors:

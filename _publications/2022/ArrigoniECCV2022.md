@@ -1,5 +1,6 @@
 ---
 year: 2022
+month: 10
 title: "Quantum Motion Segmentation"
 source: "https://arxiv.org/abs/2203.13185"
 authors:

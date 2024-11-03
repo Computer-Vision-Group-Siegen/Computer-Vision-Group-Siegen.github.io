@@ -1,5 +1,6 @@
 ---
 year: 2020
+month: 11
 title: "Adiabatic Quantum Graph Matching with Permutation Matrix Constraints"
 source: "https://arxiv.org/abs/2107.04032"
 authors:

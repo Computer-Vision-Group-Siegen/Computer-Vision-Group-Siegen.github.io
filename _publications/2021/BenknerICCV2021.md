@@ -1,5 +1,6 @@
 ---
 year: 2021
+month: 10
 title: "Q-Match: Iterative Shape Matching via Quantum Annealing"
 source: "https://arxiv.org/abs/2105.02878"
 authors:
